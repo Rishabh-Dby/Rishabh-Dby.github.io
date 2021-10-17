@@ -1,0 +1,61 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1551376347-075b0121a65b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1887&q=80);
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+}
+h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Festive', cursive;
+    font-size:100px;
+    color:rgb(217,98,121);
+}
+nav{
+    background-color: rgb(217,98,121);
+    font-family:sans-serif;
+}
+#insta{
+    color:black;
+}
+.table{
+    margin-top: 20px;
+    
+}
+.dropdown{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:30px 30%;
+}
+#in2{
+    margin-top: 30px;
+}
+.btn-info{
+    background-color: rgb(217,98,121);
+}
+a{
+    color:brown
+}
+th{
+    padding:20px;
+    border-bottom: 2px black solid;
+    border-left: 2px black solid;
+    border-right:2px black solid;
+    border-top:2px black solid;
+}
+td{
+    padding:20px;
+    border-left: 2px black solid;
+    border-right:2px black solid;
+}
+.weathertext{
+    border-bottom: 2px black solid;
+}
+.place{
+    margin-left: 20px;
+}

@@ -1,0 +1,54 @@
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1551376347-075b0121a65b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1887&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: rgb(217,98,121);
+    font-family:sans-serif;
+}
+.btn-info{
+    background-color: rgb(217,98,121);
+    border-top: rgb(217,98,121);
+}
+#f1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30%;
+    padding-right:30%;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+#md{
+    display:flex;
+    flex-direction: row;
+}
+#d1{
+    margin-top: 50px;
+    margin-right:60px;
+    margin-left:5%;
+}
+#d2{
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-right:5%;
+}
+#insta{
+    color:black;
+}
+h1{
+    text-align: center;
+    font-family: 'Festive', cursive;
+    font-size:100px;
+    color:rgb(217,98,121);
+    margin-top: 80px;
+}
+.weather{
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+}
+.result{
+    font-family:sans-serif;
+}
