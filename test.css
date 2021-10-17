@@ -4,7 +4,7 @@ body{
     font-size: large;
 }
 h1{
-    margin-top: 50px;
+    margin-top: 80px;
     text-align: center;
     font-family: 'Festive', cursive;
     font-size:100px;
@@ -63,6 +63,7 @@ h2{
     border-top: rgb(217,98,121);
 }
 h3{
-    margin-top: 100px;
-    text-align: center;
+    margin-top: 80px;
+    text-align:end;
+    margin-right:10px;
 }
