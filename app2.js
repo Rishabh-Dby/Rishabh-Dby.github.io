@@ -16,6 +16,7 @@ btn.addEventListener('click', function (e) {
             p.innerText = "Location: "
             p.append(res.data.location.name);
             table = document.createElement('table');
+            const div=document.createElement("div");
             const tbody = document.createElement('tbody');
             const thead = document.createElement('thead');
             const tr = document.createElement('tr');
@@ -32,8 +33,8 @@ btn.addEventListener('click', function (e) {
                 th.innerHTML = `${i}:00`;
                 tr.append(th);
             }
-            thead.append(tr);
             table.append(thead);
+            thead.append(tr);
             for (let i = 0; i < days.valueAsNumber; ++i) {
                 const dayno = document.createElement('td');
                 const blank = document.createElement('td');
@@ -62,7 +63,8 @@ btn.addEventListener('click', function (e) {
             table.append(tbody);
             document.body.append(p);
             p.className = "place";
-            document.body.append(table);
+            document.body.append(div);
+            div.append(table);
             f = 1;
         })
         .catch(e => {
